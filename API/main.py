@@ -8,10 +8,10 @@ app = Flask(__name__)
 CORS(app)
 
 COOLDOWN_DURATION = 15 * 60  # 15 minutes
-MESSAGE = "Stormsurge Faucet here!!"
-AMOUNT = 10
-PASSWORD = ""
-HOST_USERNAME = "DuckyPolice"
+MESSAGE = "Kat gave you some nommy Ducos!!!"
+AMOUNT = 1
+PASSWORD = "cheese"
+HOST_USERNAME = "katfaucet"
 RECAPTCHA_SECRET_KEY = "6Lemf8spAAAAAObbAXy_xQtGiMPKyd-Tnulu9ASo"
 
 user_cooldowns = {}
